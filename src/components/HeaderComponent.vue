@@ -4,6 +4,7 @@
       <router-link to="/" class="nav-link">Home</router-link>
       <router-link to="/rules" class="nav-link">Rules</router-link>
       <router-link to="/timer" class="nav-link">Timer</router-link>
+      <router-link to="/question" class="nav-link">Question</router-link>
       
     </nav>
   </header>

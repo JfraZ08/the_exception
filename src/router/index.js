@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '@/components/HomePage.vue';
 import RulesPage from '@/components/RulesPage.vue';
 import TimerPage from '@/components/TimerPage.vue';
-import ContactForm from '@/components/ContactForm.vue';
+import QuestionsPage from '@/components/QuestionsPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -23,9 +23,9 @@ const router = createRouter({
       component: TimerPage
     },
     {
-      path: '/contact',
-      name: 'Contact',
-      component: ContactForm
+      path: '/question',
+      name: 'Question',
+      component : QuestionsPage
     }
   ]
 });

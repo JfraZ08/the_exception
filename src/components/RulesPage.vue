@@ -114,38 +114,38 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: white;
     border: 2px solid white; 
     border-radius: 10px;
     text-align: left;
-    color: white;
+    color: black;
   }
   
   .page-title {
     font-size: 28px;
     margin-bottom: 20px;
-    color: white;
+    color: black;
     text-align: center;
   }
   
   h2 {
     font-size: 24px;
     margin-top: 20px;
-    color: white;
+    color: black;
   }
   
   p {
     font-size: 16px;
     margin-bottom: 20px;
     line-height: 1.5;
-    color: white;
+    color: black;
   }
   
   ul {
     list-style-type: disc;
     margin-left: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: black;
   }
   
   li {

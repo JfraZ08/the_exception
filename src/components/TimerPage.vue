@@ -25,15 +25,15 @@
     name: 'TimerPage',
     data() {
       return {
-        totalTime: 60,
+        totalTime: 40,
         timerInterval: null,
         timerRunning: false,
       };
     },
     computed: {
       formatTime() {
-        const minutes = Math.floor(this.totalTime / 60);
-        const seconds = this.totalTime % 60;
+        const minutes = Math.floor(this.totalTime / 80);
+        const seconds = this.totalTime % 80;
         return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
       },
     },
@@ -58,7 +58,7 @@
       resetTimer() {
         clearInterval(this.timerInterval);
         this.timerRunning = false;
-        this.totalTime = 60; 
+        this.totalTime = 80; 
       },
     },
   };
