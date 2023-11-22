@@ -180,6 +180,7 @@
   .duration_title{
     display: flex;
     align-content: center;
+    color: black;
   }
   label {
     font-size: 16px;

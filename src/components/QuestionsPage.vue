@@ -1,20 +1,21 @@
 <template>
     <div class="questions-page">
-      <h1 class="page-title">Questions for detective</h1>
       <img class="pas" src="../assets/pas.png">
+      <h1 class="page-title">Questions for detective</h1>
         <ul>
-          <li>What Country does this brand come from ? </li>
-          <li>Give me just one color of the logo ?</li>
-          <li>What year was it created ?</li>
-          <li>Who is the creator ? </li>
-          <li>What's the brief history of the logo ? </li>
-          <li>Do the colors in the logo mean anything ?</li>
-          <li>Is there a particular meaning behind the logo's elements ? </li>
-          <li>Who is the target audience fot the logo and brand ? </li>
-          <li>Have there been any specific events or campaigns <img class="loupe" src="../assets/loupe.png"> linked to the logo ? </li>
-          <li>Are there any variations in the way the logo is used ? </li>
-          <li>Are elements of the logo featured prominently in advertising for specific products ? </li>
-          <li>Has the logo been used in collaborations or partnerships with other brands or organizations ?</li>
+          <li>What country does this brand come from? </li>
+          <li>Give me just one color of the logo</li>
+          <li>What year was it created?</li>
+          <li>What is this brand's speciality? </li>
+          <li>Who is the creator? </li>
+          <li>What's the brief history of the logo? </li>
+          <li>Do the colors in the logo mean anything?</li>
+          <li>Is there a particular meaning behind the logo's elements? </li>
+          <li>Who is the target audience fot the logo and brand? </li>
+          <li>Have there been any specific events or <img class="loupe" src="../assets/loupe.png">campaigns linked to the logo? </li>
+          <li>Are there any variations in the way the logo is used? </li>
+          <li>Are elements of the logo featured prominently in advertising for specific products? </li>
+          <li>Has the logo been used in collaborations or partnerships with other brands or organizations?</li>
         </ul>
       </div>
   </template>
@@ -25,15 +26,18 @@
   }
   </script>
 
- <style scoped>*
+ <style scoped>
   .pas {
     width: 60px;
     height: 300px;
     float: right;
+    margin-right: 60px;
+    rotate: 30deg;
   }
  .loupe {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
  }
   .questions-page {
     max-width: 800px;

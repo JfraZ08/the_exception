@@ -22,8 +22,8 @@
   
   <style scoped>
   .home-container {
-    background-color: black;
-    color: white;
+    background-color: #e5d5be;
+    color: black;
     text-align: center;
   }
   
