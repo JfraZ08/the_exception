@@ -5,8 +5,8 @@
         <img src="../assets/The_exception.png" alt="Brand Hunt Logo" />
       </div>
       <div class="welcome-message">
-        <h1>Welcome to Brand Hunt !</h1>
-        <p>Dive into the exciting world of brands and advertising with our interactive game.</p>
+        <h1>Welcome to The Exception website !</h1>
+        <p>Come to discovery who is the impostor ? </p>
       </div>
     </div>
   </template>

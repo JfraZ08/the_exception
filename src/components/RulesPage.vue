@@ -26,12 +26,10 @@
       <p>The detective doesn’t get a card. The brand representatives have 40 seconds to read and
       memorize as much information concerning the brand as possible. After 40 seconds, the 3
       players turn over the card and the game begins.</p>
-      <br>
       <p>Players take turns saying one word related to their logo on the card. At the end of the round,
       the detective asks a question of his choice from the question sheet provided. After two
       rounds, the detective can either ask another question or decide to denounce the
       exception/impostor.</p>
-      <br>
       <p>If the detective is right, he must identify the Exception’s brand to win.
       If the detective is wrong, it is the turn of the Exception to identify the brand of the other two
       brand representatives to win. </p>
@@ -79,7 +77,7 @@
   .page-title {
     font-size: 28px;
     margin-bottom: 20px;
-    color: black;
+    color: red;
     text-align: center;
   }
   
