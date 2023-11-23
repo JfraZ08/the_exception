@@ -35,7 +35,7 @@
   }
   .pas {
     width: 60px;
-    height: 300px;
+    height: 200px;
     float: right;
     margin-right: 60px;
     rotate: 30deg;
