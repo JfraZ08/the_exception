@@ -1,7 +1,7 @@
-<template>
+    <template>
     <div class="questions-page">
       <img class="pas" src="../assets/pas.png">
-      <h1 class="page-title">Questions for detective</h1>
+      <h1 class="page-title"><img class ="detectiv-left" src="../assets/detectiv_title.png">Questions for detective<img class="detectiv-right" src="../assets/detectiv_title_droite.png"></h1>
         <ul>
           <li>What country does this brand come from? </li>
           <li>Give me just one color of the logo</li>
@@ -15,11 +15,9 @@
           <li>Have there been any specific events or <img class="loupe" src="../assets/loupe.png">campaigns linked to the logo? </li>
           <li>Are there any variations in the way the logo is used? </li>
           <li>Are elements of the logo featured prominently in advertising for specific products? </li>
-          <li>Has the logo been used in collaborations or partnerships with other brands or organizations?</li>
         </ul>
       </div>
   </template>
-
   <script>
     export default {
     name: 'QuestionsPage',
@@ -27,6 +25,14 @@
   </script>
 
  <style scoped>
+
+  .detectiv-left {
+    margin-right : 5px;
+  }
+
+  .detectiv-right {
+    margin-left : 5px;
+  }
   .pas {
     width: 60px;
     height: 300px;

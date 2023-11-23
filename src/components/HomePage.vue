@@ -2,7 +2,7 @@
     <div class="home-container">
       <div class="logo-animation">
       
-        <img src="@/assets/logo_brand.png" alt="Brand Hunt Logo" />
+        <img src="../assets/The_exception.png" alt="Brand Hunt Logo" />
       </div>
       <div class="welcome-message">
         <h1>Welcome to Brand Hunt !</h1>
