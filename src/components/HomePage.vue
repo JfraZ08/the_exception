@@ -6,7 +6,7 @@
       </div>
       <div class="welcome-message">
         <h1>Welcome to The Exception website !</h1>
-        <p>Come to discovery who is the impostor ? </p>
+        <p>Come to discover who is the impostor ? </p>
       </div>
     </div>
   </template>
