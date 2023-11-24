@@ -75,16 +75,18 @@
   }
   
   .page-title {
-    font-size: 28px;
+    font-size: 36px;
     margin-bottom: 20px;
-    color: red;
+    color: #54bec7;
     text-align: center;
+    font-family: Roboto;
   }
   
   h2 {
     font-size: 24px;
     margin-top: 20px;
-    color: black;
+    color: #54bec7;
+    font-family: Roboto;
   }
   
   p {
