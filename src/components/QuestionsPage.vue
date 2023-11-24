@@ -1,7 +1,7 @@
     <template>
     <div class="questions-page">
       <img class="pas" src="../assets/pas.png">
-      <h1 class="page-title"><img class ="detectiv-left" src="../assets/detectiv_title.png">Questions for detective<img class="detectiv-right" src="../assets/detectiv_title_droite.png"></h1>
+      <h1 class="page-title"><img class ="detectiv-left" src="../assets/detectiv_title.png">Questions <span>for</span> detective<img class="detectiv-right" src="../assets/detectiv_title_droite.png"></h1>
         <ul>
           <li>What country does this brand come from? </li>
           <li>Give me just one color of the logo</li>
@@ -78,7 +78,7 @@
   
   ul {
     list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 20px;
     margin-right: 100px;
     color: black;
@@ -89,5 +89,33 @@
     font-weight: bold;
   }
   
+  @media screen and (max-width: 480px) {
+      
+      
+      .pas {
+        margin-left : 50px;
+      }
+
+      h1 span {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 5px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-left: 15px;
+        margin-top: 15px;
+      }
+
+      .detectiv-right {
+        margin-left: 60px;
+      }
+
+      li {
+        width: 300px;
+      }
+    }
   </style>
   

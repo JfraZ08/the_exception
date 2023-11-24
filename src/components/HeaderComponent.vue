@@ -31,7 +31,7 @@ header {
 
 .nav-link {
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   color: white;
   transition: background-color 0.3s ease, color 0.3s ease;
   padding: 0.5rem 1rem;
@@ -48,6 +48,13 @@ header {
 .router-link-exact-active {
   font-weight: bold;
 }
+@media screen and (max-width: 480px) {
+  header {
+    width: max-content;
+  }
+}
+
+
 </style>
 
 

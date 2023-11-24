@@ -20,7 +20,7 @@
   };
   </script>
   
-  <style scoped>
+  <style>
   .home-container {
     background-color: #e5d5be;
     color: black;
@@ -51,5 +51,7 @@
   .welcome-message p {
     margin-bottom: 20px;
   }
+
+  
   </style>
   
