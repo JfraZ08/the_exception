@@ -21,7 +21,7 @@ export default {
 header {
   background-color: transparent;
   color: white;
-  padding: 1rem;
+  padding: 1rem 0.2rem 1rem 0.2rem;
   position: absolute;
   width: 100%;
   top: 0;
@@ -53,6 +53,23 @@ header {
     width: max-content;
   }
 }
+
+@media screen and (max-width: 300px) {
+  header {
+    width: max-content;
+  }
+
+  .nav-link {
+      margin : 0 0.1rem;
+      font-size: 12px;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+}
+
 
 
 </style>
